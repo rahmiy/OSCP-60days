@@ -1,0 +1,29 @@
+Step 1: Install Needed Packages
+
+Before installing VMware Workstation Pro, you must install some required Ubuntu packages… to do that, run the commands below
+
+sudo apt-get update
+sudo apt-get install gcc build-essential linux-headers-$(uname -r)
+
+Step 2: Download VMware Workstation Pro
+
+After installing the packages above, go and download VMware Workstation Pro from its download page below
+
+https://my.vmware.com/web/vmware/downloads
+
+You may use the commands line to download and install it… Run the commands below to download and install VMware Workstation Pro 15…
+
+cd /tmp
+wget -O ~/vmware.bin https://www.vmware.com/go/getworkstation-linux
+
+Step 3: Install VMware Workstation Pro
+
+After downloading above, run the commands below to install VMware Workstation Pro….
+
+sudo bash ~/vmware.bin
+
+When you run the commands above, the installation wizard should launch and guide you through the process… During the installation, you’ll be prompted to enter a license key to enable to activate the software… you can skip for now and purchase a license key later…
+
+VMware Workstation Pro used to be free, but apparently not anymore… You must purchase a license to use this production after the trial period is over.
+
+Accept the license terms to continue
