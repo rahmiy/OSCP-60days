@@ -13,11 +13,8 @@ NOW MISSING OSCP...!
 
 2. Try Harder
 
-NOTE:
+******
 
-Enumeration is Key ....
-
-=========================================
 
 In This Repo you will get all the necessary tools and pdf required for OSCP.
 
@@ -27,7 +24,6 @@ Here is two Repo :
 
 2. OSCP-EXAM
 
-=========================================
 
 1. In the OSCP-60Days Repo I have mentioned all my findings during my OSCP Journey.
    So, find the Correct tool from the repo and exploit it.
