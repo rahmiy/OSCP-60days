@@ -1,0 +1,20 @@
+# Nmap 7.70 scan initiated Thu Feb 14 10:36:46 2019 as: nmap -sU -sV -vv -T4 -oN udp.txt 10.11.1.31
+Increasing send delay for 10.11.1.31 from 0 to 50 due to 369 out of 922 dropped probes since last increase.
+Nmap scan report for 10.11.1.31
+Host is up, received arp-response (0.33s latency).
+Scanned at 2019-02-14 10:36:46 EST for 123s
+Not shown: 994 closed ports
+Reason: 994 port-unreaches
+PORT     STATE         SERVICE      REASON               VERSION
+137/udp  open          netbios-ns   udp-response ttl 128 Microsoft Windows netbios-ns (workgroup: THINC)
+138/udp  open|filtered netbios-dgm  no-response
+445/udp  open|filtered microsoft-ds no-response
+500/udp  open|filtered isakmp       no-response
+1434/udp open          ms-sql-m     udp-response         Microsoft SQL Server 8.00.194 (ServerName: RALPH; TCPPort: 1433)
+4500/udp open|filtered nat-t-ike    no-response
+MAC Address: 00:50:56:B8:37:FA (VMware)
+Service Info: Host: RALPH; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Feb 14 10:38:49 2019 -- 1 IP address (1 host up) scanned in 123.23 seconds
