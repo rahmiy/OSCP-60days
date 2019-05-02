@@ -2,11 +2,20 @@
 OSCP (No more tools is required.)
 
 REAL LIFE PENETRATION TESTING EXPERIENCE...!!
-IT WAS AN AMAZING JOURNEY...!!
-NOW MISSING OSCP...!
-LEARNED 
 
-#Try Harder
+IT WAS AN AMAZING JOURNEY...!!
+
+NOW MISSING OSCP...!
+
+# OSCP MANTRA
+
+1. Enumeration
+
+2. Try Harder
+
+NOTE:
+
+Enumeration is Key ....
 
 =========================================
 
